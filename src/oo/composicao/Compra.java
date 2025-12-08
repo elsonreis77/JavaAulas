@@ -6,4 +6,5 @@ public class Compra {
 
     String nomeCliente;
     ArrayList<Item> itens = new ArrayList<Item>();
+
 }

@@ -14,5 +14,6 @@ public class ClienteTeste {
         System.out.println(c1.obterValorTotal());
 
         System.out.println();
+        System.out.println();
     }
 }

@@ -28,5 +28,12 @@ public class CursoTeste {
 
         System.out.println(aluno1.cursos.get(0).alunos);
 
+
+        Curso cursoEncontrado = aluno1.obterCursoPorNome("ingles");
+
+        if(cursoEncontrado != null) {
+            System.out.println(cursoEncontrado.nome);
+            System.out.println(cursoEncontrado.alunos);
+        }
     }
 }

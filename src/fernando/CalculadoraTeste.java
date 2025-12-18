@@ -7,5 +7,7 @@ public class CalculadoraTeste {
 
         c1.somar(5,5);
 
+        System.out.println();
+
     }
 }

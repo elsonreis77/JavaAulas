@@ -16,6 +16,7 @@ public class CompraTeste {
         System.out.println(total);
 
         System.out.println();
+        System.out.println();
 
     }
 }

@@ -10,5 +10,6 @@ public class Jogo {
         System.out.println(jogador1.l);
 
         System.out.println();
+        System.out.println();
     }
 }

@@ -8,5 +8,7 @@ public class Jogo {
         jogador1.andar(Direcao.NORTE);
         System.out.println(jogador1.n);
         System.out.println(jogador1.l);
+
+        System.out.println();
     }
 }

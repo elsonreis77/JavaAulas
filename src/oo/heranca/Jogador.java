@@ -5,6 +5,7 @@ public class Jogador {
     int n;
     int l;
     int o;
+    int vida = 100;
 
   //  boolean andar(Direcao direcao) {
       //  if(direcao == Direcao.NORTE) {
@@ -19,6 +20,22 @@ public class Jogador {
 
        // return true;
    // }
+
+    boolean atacar(Jogador oponente) {
+
+        int deltaS = Math.abs(s - oponente.s);
+        int deltaN = Math.abs(n - oponente.n);
+
+        if(deltaS == 0 && deltaN == 1) {
+            oponente.vida -= vida;
+            return true;
+        } else if (deltaS == 1 && deltaN == 0) {
+            oponente.vida -= 10;
+            return true;
+        } else {
+            return false;
+        }
+    }
 
     boolean andar(Direcao direcao) {
         switch (direcao) {

@@ -18,8 +18,8 @@ public class Jogo {
         jogador2.atacar(jogador1);
         System.out.println();
 
-        System.out.println("Vida heroi => " + jogador1.vida);
-        System.out.println("Vida mosntro => "+jogador2.vida);
+        System.out.println("Vida monstro => " + jogador1.vida);
+        System.out.println("Vida heroi => "+jogador2.vida);
         System.out.println();
         System.out.println();
         System.out.println();

@@ -1,13 +1,13 @@
 package oo.heranca;
 
 public class Jogador {
-    int s;
-    int n;
+    public int s;
+    public int n;
     int l;
     int o;
-    int vida = 100;
+    public int vida = 100;
 
-    Jogador(int s, int n) {
+    protected Jogador(int s, int n) {
         this.s = s;
         this.n = n;
     }
@@ -26,7 +26,7 @@ public class Jogador {
        // return true;
    // }
 
-    boolean atacar(Jogador oponente) {
+    public boolean atacar(Jogador oponente) {
 
         int deltaS = Math.abs(s - oponente.s);
         int deltaN = Math.abs(n - oponente.n);
@@ -42,7 +42,7 @@ public class Jogador {
         }
     }
 
-    boolean andar(Direcao direcao) {
+    public boolean andar(Direcao direcao) {
         switch (direcao) {
             case SUL:
                 s++;

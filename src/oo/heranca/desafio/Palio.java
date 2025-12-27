@@ -11,12 +11,12 @@ public class Palio extends Carro {
     }
 
     @Override
-    void acelerar() {
+    public void acelerar() {
         super.acelerar();
     }
 
     @Override
-    void freiar() {
+    public void freiar() {
         super.freiar();
     }
 }

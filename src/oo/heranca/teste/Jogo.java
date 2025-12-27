@@ -1,4 +1,7 @@
-package oo.heranca;
+package oo.heranca.teste;
+
+import oo.heranca.Heroi;
+import oo.heranca.Monstro;
 
 public class Jogo {
     public static void main(String[] args) {
@@ -7,7 +10,7 @@ public class Jogo {
         jogador1.n = 10;
         jogador1.s = 10;
 
-        Heroi jogador2 = new Heroi();
+        Heroi jogador2 = new Heroi(2,4);
         jogador2.n = 10;
         jogador2.s = 11;
 
